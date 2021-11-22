@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Repository</string>
+    <string name="tl_app_repositories">App Repositories</string>
+    <string name="action_search">Pesquisar</string>
+</resources>
