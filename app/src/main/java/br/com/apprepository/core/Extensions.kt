@@ -22,7 +22,7 @@ fun View.hideSoftKeyboard() {
 }
 
 fun Context.createDialog(block: MaterialAlertDialogBuilder.() -> Unit = {}): AlertDialog {
-    val builder = MaterialAlertDialogBuilder(this)
+    val builder = MaterialAlertDialogBuilder(this, R.style.TitleTextStyle)
     builder.setPositiveButton(android.R.string.ok, null)
     block(builder)
     return builder.create()
